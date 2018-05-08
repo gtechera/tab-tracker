@@ -11,7 +11,7 @@ app.use(cors())
 //Routes
 app.get('/status', (req, res) => {
   res.send({
-    mensaje: 'Hello Status Page'
+    mensaje: 'Status Page now working'
   })
 })
 
